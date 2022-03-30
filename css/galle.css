@@ -1,0 +1,92 @@
+.grid {
+    //background: white;
+    max-width: 1180px;
+    margin:0 auto;
+  }
+  
+  /* clearfix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  /* ---- grid-item ---- */
+  
+  .grid-item {
+    width: 100%;
+    float: left;
+    /* vertical gutter */
+    margin-bottom: 20px;
+    background: #666;
+    @media screen and (min-width:600px) {
+      width:280px;
+      height:210px;
+    }
+  }
+  
+  .grid-item--width2 { 
+    width: 100%;
+    height:210px;
+    background-color:silver !important;
+      @media screen and (min-width:600px) {
+      width:580px;
+  
+    }
+  }
+  
+  .grid-item--height2 { 
+    height: 420px;
+    background-color:tomato !important;
+    @media screen and (min-width:600px) {
+      height: 440px;
+  
+    }
+  
+  }
+  
+  .grid-item:nth-child(1){
+    background-image:url("/image/DLOGolettreD.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+  
+  }
+  
+  
+  
+  .grid-item:nth-child(2), .grid-item:nth-child(9), .grid-item:nth-child(13), .grid-item:nth-child(14){
+    background-image:url("/image/homme2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+  
+  }
+  
+  
+  .grid-item:nth-child(5),{
+    background-image:url("//c2.staticflickr.com/6/5257/5436078732_9451605d19_z.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+  }
+  
+  
+  
+  
+  .grid-item:nth-child(3), .grid-item:nth-child(10), .grid-item:nth-child(16){
+    background-image:url("//c1.staticflickr.com/5/4064/4365266778_ee17b82761.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+  
+  }
+  
+  .grid-item:nth-child(4), .grid-item:nth-child(11), .grid-item:nth-child(20){
+    background-image:url("//c2.staticflickr.com/6/5214/5436079370_3c28a36ac6_n.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+      
+  }
+  

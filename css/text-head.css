@@ -1,0 +1,12 @@
+#clic{
+    animation: Test 1s infinite;
+    display:inline;
+    margin-left: -4px;
+}
+ 
+@keyframes Test{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+ 
